@@ -1,0 +1,16 @@
+{
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/strongly-recommended",
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "rules": {
+        "vue/html-self-closing": 0
+    }
+}
